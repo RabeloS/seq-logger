@@ -1,0 +1,33 @@
+2022-03-17 22:15:12.154 -03:00 [INF] Starting up
+2022-03-17 22:15:12.797 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-17 22:15:12.805 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-17 22:15:12.807 -03:00 [INF] Hosting environment: Development
+2022-03-17 22:15:12.809 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-17 22:15:13.952 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-17 22:15:14.018 -03:00 [INF] HTTP GET /api/values responded 200 in 101.1627 ms
+2022-03-17 22:15:36.784 -03:00 [INF] HTTP GET /api/logs responded 404 in 0.2379 ms
+2022-03-17 22:17:53.093 -03:00 [INF] Starting up
+2022-03-17 22:17:53.513 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-17 22:17:53.530 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-17 22:17:53.532 -03:00 [INF] Hosting environment: Development
+2022-03-17 22:17:53.533 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-17 22:17:54.560 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-17 22:17:54.602 -03:00 [INF] HTTP GET /api/values responded 200 in 73.3688 ms
+2022-03-17 22:37:26.867 -03:00 [INF] HTTP GET /api/logs responded 404 in 3.9779 ms
+2022-03-17 22:37:26.945 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0148 ms
+2022-03-17 22:37:35.033 -03:00 [INF] HTTP GET /logs responded 404 in 0.0248 ms
+2022-03-17 22:37:35.084 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0172 ms
+2022-03-17 22:54:41.436 -03:00 [INF] Starting up
+2022-03-17 22:54:41.968 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-17 22:54:41.976 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-17 22:54:41.977 -03:00 [INF] Hosting environment: Development
+2022-03-17 22:54:41.979 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-17 22:54:43.461 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-17 22:54:43.520 -03:00 [INF] HTTP GET /api/values responded 200 in 87.3728 ms
+2022-03-17 22:56:01.483 -03:00 [INF] Starting up
+2022-03-17 22:56:02.009 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-17 22:56:02.016 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-17 22:56:02.017 -03:00 [INF] Hosting environment: Development
+2022-03-17 22:56:02.017 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-17 22:56:03.073 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-17 22:56:03.116 -03:00 [INF] HTTP GET /api/values responded 200 in 68.6184 ms

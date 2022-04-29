@@ -1,0 +1,207 @@
+2022-03-19 12:16:09.564 -03:00 [INF] Starting up
+2022-03-19 12:16:10.022 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-19 12:16:10.035 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-19 12:16:10.038 -03:00 [INF] Hosting environment: Development
+2022-03-19 12:16:10.040 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-19 12:16:11.641 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-19 12:16:11.672 -03:00 [INF] HTTP GET /api/values responded 200 in 52.8288 ms
+2022-03-19 12:17:52.644 -03:00 [INF] Starting up
+2022-03-19 12:17:53.269 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-19 12:17:53.278 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-19 12:17:53.280 -03:00 [INF] Hosting environment: Development
+2022-03-19 12:17:53.281 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-19 12:17:54.427 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-19 12:17:54.476 -03:00 [INF] HTTP GET /api/values responded 200 in 87.3274 ms
+2022-03-19 12:18:18.933 -03:00 [INF] HTTP GET /api/logs responded 200 in 19271.8477 ms
+2022-03-19 12:21:56.345 -03:00 [INF] Starting up
+2022-03-19 12:21:56.621 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-19 12:21:56.629 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-19 12:21:56.631 -03:00 [INF] Hosting environment: Development
+2022-03-19 12:21:56.633 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-19 12:21:57.421 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-19 12:21:57.453 -03:00 [INF] HTTP GET /api/values responded 200 in 57.1812 ms
+2022-03-19 12:22:05.608 -03:00 [ERR] HTTP GET /api/logs responded 500 in 4839.6540 ms
+System.UnauthorizedAccessException: Access to the path 'C:\estudos\server\Loggy\Loggy\logs' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLinesAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at Loggy.Controllers.LogsController.Get() in C:\estudos\server\Loggy\Loggy\Controllers\LogsController.cs:line 17
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-03-19 15:30:03.379 -03:00 [INF] Starting up
+2022-03-19 15:30:03.797 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-19 15:30:03.809 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-19 15:30:03.812 -03:00 [INF] Hosting environment: Development
+2022-03-19 15:30:03.814 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-19 15:30:05.010 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-19 15:30:05.063 -03:00 [INF] HTTP GET /api/values responded 200 in 89.2944 ms
+2022-03-19 15:30:05.266 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 0.2269 ms
+2022-03-19 15:45:33.543 -03:00 [INF] Starting up
+2022-03-19 15:45:34.524 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-19 15:45:34.535 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-19 15:45:34.540 -03:00 [INF] Hosting environment: Development
+2022-03-19 15:45:34.544 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-19 15:45:35.739 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-19 15:45:35.780 -03:00 [INF] HTTP GET /api/values responded 200 in 72.2334 ms
+2022-03-19 15:46:02.400 -03:00 [ERR] HTTP GET /api/logs responded 500 in 22240.9384 ms
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\estudos\server\Loggy\Loggy\logs\logs\log-20220317.txt'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLinesAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at Loggy.Controllers.LogsController.Get() in C:\estudos\server\Loggy\Loggy\Controllers\LogsController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-03-19 15:46:26.037 -03:00 [INF] Starting up
+2022-03-19 15:46:26.373 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-19 15:46:26.382 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-19 15:46:26.388 -03:00 [INF] Hosting environment: Development
+2022-03-19 15:46:26.393 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-19 15:46:27.637 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-19 15:46:27.672 -03:00 [INF] HTTP GET /api/values responded 200 in 53.0427 ms
+2022-03-19 15:51:20.324 -03:00 [INF] Starting up
+2022-03-19 15:51:20.851 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-19 15:51:20.864 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-19 15:51:20.866 -03:00 [INF] Hosting environment: Development
+2022-03-19 15:51:20.867 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-19 15:51:21.923 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-19 15:51:21.956 -03:00 [INF] HTTP GET /api/values responded 200 in 56.1229 ms
+2022-03-19 15:51:22.059 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 0.1239 ms
+2022-03-19 17:13:14.842 -03:00 [INF] Starting up
+2022-03-19 17:13:15.242 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-19 17:13:15.250 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-19 17:13:15.251 -03:00 [INF] Hosting environment: Development
+2022-03-19 17:13:15.252 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-19 17:13:16.143 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-19 17:13:16.184 -03:00 [INF] HTTP GET /api/values responded 200 in 74.4435 ms
+2022-03-19 17:15:07.757 -03:00 [INF] Starting up
+2022-03-19 17:15:08.214 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-19 17:15:08.229 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-19 17:15:08.233 -03:00 [INF] Hosting environment: Development
+2022-03-19 17:15:08.235 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-19 17:15:09.650 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-19 17:15:09.779 -03:00 [INF] HTTP GET /api/values responded 200 in 193.8667 ms
+2022-03-19 17:15:16.548 -03:00 [ERR] HTTP GET /api/logs responded 500 in 2783.6027 ms
+System.IO.IOException: The process cannot access the file 'C:\estudos\server\Loggy\Loggy\logs\log-20220319.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLinesAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at Loggy.Controllers.LogsController.Get() in C:\estudos\server\Loggy\Loggy\Controllers\LogsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-03-19 17:16:07.466 -03:00 [INF] Starting up
+2022-03-19 17:16:08.060 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-19 17:16:08.081 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-19 17:16:08.085 -03:00 [INF] Hosting environment: Development
+2022-03-19 17:16:08.092 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-19 17:16:08.877 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-19 17:16:08.952 -03:00 [INF] HTTP GET /api/values responded 200 in 91.2112 ms
+2022-03-19 17:21:00.863 -03:00 [ERR] HTTP GET /api/logs responded 500 in 35122.6106 ms
+System.IO.IOException: The process cannot access the file 'C:\estudos\server\Loggy\Loggy\logs\log-20220319.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLinesAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at Loggy.Controllers.LogsController.Get() in C:\estudos\server\Loggy\Loggy\Controllers\LogsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-03-19 17:22:43.874 -03:00 [ERR] HTTP GET /api/logs responded 500 in 63136.4237 ms
+System.IO.IOException: The process cannot access the file 'C:\estudos\server\Loggy\Loggy\logs\log-20220319.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLinesAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at Loggy.Controllers.LogsController.Get() in C:\estudos\server\Loggy\Loggy\Controllers\LogsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-03-19 17:25:03.649 -03:00 [INF] Starting up
+2022-03-19 17:25:04.130 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-19 17:25:04.141 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-19 17:25:04.143 -03:00 [INF] Hosting environment: Development
+2022-03-19 17:25:04.144 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-19 17:25:04.979 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-19 17:25:05.006 -03:00 [INF] HTTP GET /api/values responded 200 in 40.8743 ms
+2022-03-19 17:27:24.228 -03:00 [INF] Starting up
+2022-03-19 17:27:24.585 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-19 17:27:24.594 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-19 17:27:24.597 -03:00 [INF] Hosting environment: Development
+2022-03-19 17:27:24.600 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-19 17:27:25.835 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-19 17:27:25.873 -03:00 [INF] HTTP GET /api/values responded 200 in 114.5536 ms
+2022-03-19 17:38:15.780 -03:00 [INF] Starting up
+2022-03-19 17:38:16.425 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-19 17:38:16.439 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-19 17:38:16.441 -03:00 [INF] Hosting environment: Development
+2022-03-19 17:38:16.442 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-19 17:38:17.906 -03:00 [INF] HTTP GET: Called get method of WeatherForecast contorller
+2022-03-19 17:38:17.971 -03:00 [INF] HTTP GET /api/values responded 200 in 105.5167 ms
+2022-03-19 17:38:18.142 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 0.2066 ms

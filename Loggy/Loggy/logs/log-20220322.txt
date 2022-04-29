@@ -1,0 +1,116 @@
+2022-03-22 21:04:50.066 -03:00 [INF] Starting up
+2022-03-22 21:05:27.691 -03:00 [INF] Starting up
+2022-03-22 21:06:16.580 -03:00 [INF] Starting up
+2022-03-22 21:07:04.522 -03:00 [INF] Starting up
+2022-03-22 21:07:04.833 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-22 21:07:04.842 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-22 21:07:04.845 -03:00 [INF] Hosting environment: Development
+2022-03-22 21:07:04.846 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-22 21:07:06.306 -03:00 [INF] HTTP GET: Inicio da requisicao
+2022-03-22 21:07:06.471 -03:00 [INF] HTTP GET /api/values responded 200 in 232.2402 ms
+2022-03-22 21:17:36.072 -03:00 [INF] Starting up
+2022-03-22 21:17:36.617 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-22 21:17:36.625 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-22 21:17:36.631 -03:00 [INF] Hosting environment: Development
+2022-03-22 21:17:36.634 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-22 21:17:38.018 -03:00 [INF] HTTP GET: Inicio da requisicao
+2022-03-22 21:17:38.064 -03:00 [INF] HTTP GET /api/values responded 200 in 82.3721 ms
+2022-03-22 21:18:02.568 -03:00 [INF] Starting up
+2022-03-22 21:18:03.081 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-22 21:18:03.089 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-22 21:18:03.091 -03:00 [INF] Hosting environment: Development
+2022-03-22 21:18:03.094 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-22 21:18:04.612 -03:00 [INF] HTTP GET: Inicio da requisicao
+2022-03-22 21:18:04.743 -03:00 [ERR] HTTP GET /api/values responded 500 in 202.5996 ms
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Int32.Parse(String s)
+   at Loggy.Controllers.ValuesController.Index() in C:\estudos\server\Loggy\Loggy\Controllers\ValuesController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-03-22 21:18:05.234 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Int32.Parse(String s)
+   at Loggy.Controllers.ValuesController.Index() in C:\estudos\server\Loggy\Loggy\Controllers\ValuesController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-22 21:18:32.078 -03:00 [INF] Starting up
+2022-03-22 21:18:32.474 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-22 21:18:32.481 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-22 21:18:32.484 -03:00 [INF] Hosting environment: Development
+2022-03-22 21:18:32.485 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-22 21:18:34.353 -03:00 [INF] HTTP GET: Inicio da requisicao
+2022-03-22 21:18:34.427 -03:00 [ERR] HTTP GET /api/values responded 500 in 101.8028 ms
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Int32.Parse(String s)
+   at Loggy.Controllers.ValuesController.Index() in C:\estudos\server\Loggy\Loggy\Controllers\ValuesController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-03-22 21:18:34.493 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Int32.Parse(String s)
+   at Loggy.Controllers.ValuesController.Index() in C:\estudos\server\Loggy\Loggy\Controllers\ValuesController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-22 21:19:55.377 -03:00 [INF] Starting up
+2022-03-22 21:19:55.779 -03:00 [INF] Now listening on: http://localhost:5000
+2022-03-22 21:19:55.790 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-22 21:19:55.793 -03:00 [INF] Hosting environment: Development
+2022-03-22 21:19:55.794 -03:00 [INF] Content root path: C:\estudos\server\Loggy\Loggy\
+2022-03-22 21:20:24.339 -03:00 [INF] HTTP GET: Inicio da requisicao
+2022-03-22 21:20:35.534 -03:00 [ERR]  Error  -> Input string was not in a correct format.
+2022-03-22 21:20:35.538 -03:00 [INF] HTTP GET /api/values responded 200 in 38117.5457 ms
+2022-03-22 21:20:45.231 -03:00 [INF] HTTP GET /api/logs responded 200 in 4705.9509 ms
+2022-03-22 21:21:13.956 -03:00 [INF] HTTP GET: Inicio da requisicao
+2022-03-22 21:21:14.003 -03:00 [ERR]  Error  -> Input string was not in a correct format.
+2022-03-22 21:21:14.007 -03:00 [INF] HTTP GET /api/values responded 200 in 3956.5170 ms
+2022-03-22 21:21:30.324 -03:00 [INF] HTTP GET /api/logs responded 200 in 11383.6027 ms
